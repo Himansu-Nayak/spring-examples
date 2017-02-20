@@ -11,6 +11,7 @@
 
     <modules>
         <module>spring-security</module>
+        <module>spring-boot-shade</module>
     </modules>
 
 </project>
