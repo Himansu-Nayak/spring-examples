@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.org.spring.boot.SpringBootDemoApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.215 sec - in com.org.spring.boot.SpringBootDemoApplicationTests
