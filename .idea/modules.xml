@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rest/spring-boot-rest.iml" filepath="$PROJECT_DIR$/spring-boot-rest/spring-boot-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-shade/spring-boot-shade.iml" filepath="$PROJECT_DIR$/spring-boot-shade/spring-boot-shade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-core/spring-core.iml" filepath="$PROJECT_DIR$/spring-core/spring-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-examples.iml" filepath="$PROJECT_DIR$/spring-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
     </modules>

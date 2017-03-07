@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:context="http://www.springframework.org/schema/context"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Callback Beans -->
+    <beans:bean id="bean" class="com.org.core.callback.BeanWithInterface"/>
+    <beans:bean id="beanWithAware" class="com.org.core.callback.BeanWithAware"/>
+    <beans:bean id="beanCustom" class="com.org.core.callback.BeanCustom" init-method="init" destroy-method="destroy"/>
+    <beans:bean id="beanWithPrePost" class="com.org.core.callback.BeanWithPrePost"/>
+
+    <context:annotation-config/>
+    <context:component-scan base-package="com.org.core.callback" />
+
+    <!-- Autowire Beans-->
+    <beans:bean id="employeeByName" class="com.org.core.autowire.EmployeeByName" autowire="byName"/>
+    <beans:bean id="employeeByType" class="com.org.core.autowire.EmployeeByType" autowire="byType"/>
+    <beans:bean id="employeeByConstructor" class="com.org.core.autowire.EmployeeByConstructor" autowire="constructor"/>
+<!--
+    Autodetect is no more supported
+    <beans:bean id="employeeByAutoDetect" class="com.org.core.autowire.EmployeeByAutoDetect" autowire="autodetect"/>
+-->
+    <beans:bean id="employer" class="com.org.core.autowire.Employer"/>
+
+</beans:beans>
