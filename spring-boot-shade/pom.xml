@@ -13,7 +13,7 @@
 
     <properties>
         <jodatime.version>2.5</jodatime.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
         <guava.version>16.0.1</guava.version>
     </properties>
 
